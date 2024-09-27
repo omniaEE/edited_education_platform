@@ -8,8 +8,9 @@ import { useMediaQuery } from 'react-responsive'
 export default function FourthSection() {
     const isScreenSmall=useMediaQuery({maxWidth:576})
     return <>
-   <div className="container py-5">
-   <div className="row justify-content-between">
+
+   <div className="container py-0">
+   <div className="d-flex flex-column flex-md-row justify-content-between">
         <div className={`col-md-6 mt-4 ${isScreenSmall?'':'ms-5 ps-3'}`}>
             <h3 className="fw-bold"><span className="text-color">Screen Reader</span> Feature</h3>
             <p className="gray-text">It's a new feature for prople who has disabilities, It's often available in multiple languages to cater users worldwide, often support Braille displays, which provide tactile output to users who are proficient in Braille.</p>
@@ -19,7 +20,7 @@ export default function FourthSection() {
         </div>
     </div>
 
-   <div className="row justify-content-between">
+   <div className="d-flex flex-column flex-md-row justify-content-between">
 
         <div className={`col-md-5 p-0 ${isScreenSmall?'' : 'offset-1'}`}>
             <img src={leftimg} className={`${isScreenSmall?'w-75' : 'w-100'}`} alt="" />
