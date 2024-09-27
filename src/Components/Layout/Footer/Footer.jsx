@@ -97,7 +97,7 @@ export default function Footer() {
                 className={`${Style.news_btn} ${
                   isScreenSmall ? "" : "px-4"
                 } btn bg-color  hover:bg-green-700 text-white ms-2 small-font `}
-                style={{ height: "45px" }}
+                style={{ height: "46px" }}
               >
                 Subscribe
               </button>

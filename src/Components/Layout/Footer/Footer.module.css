@@ -40,6 +40,10 @@ li {
     padding: 11px 48px 10px 0;
     border-radius: 20px ;
     width: 100%;
+    background-color: transparent;
+    border-width: 1px;
+    border-color: aliceblue;
+    border-style: solid;
     
   }
   .news_btn {
